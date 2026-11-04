@@ -2,6 +2,9 @@
 This python script automatically detect your fasta files from your input directory and calculate gc content.
 
 ## How to use
+You need to install the requirements.txt\
+`pip install -r requirements.txt`\
+Then, run the script.\
 `python3 gc_content.py -i PATH_TO_YOUR_DIRECTORY_CONTAINING_FASTA_FILES' -o PATH_TO_OUTPUT_DIRECTORY`
 
 ## Output files
