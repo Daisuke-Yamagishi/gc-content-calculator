@@ -15,7 +15,7 @@ out_dir = args.out_dir
 print("input directory:" + input_dir)
 print("output directory:" + out_dir)
 
-####################looking for fasta files############################
+####################find fasta files############################
 def find_fasta(input_dir):
     data_dir = Path(input_dir)
     fasta_files = [
