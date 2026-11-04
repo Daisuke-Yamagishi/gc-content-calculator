@@ -85,7 +85,7 @@ def plot_gc(df, fasta, out_dir):
 
 ################################################
 
-fasta_files = find_fasta(input_dir) #This function automatically detect your fasta files
+fasta_files = find_fasta(input_dir) #This function automatically detects your fasta files
 
 for fasta in fasta_files:
 
